@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import Menu from './pages/Menu';
+import Menu from './pages/menu';
 import Gallery from './pages/Gallery';
 import Reviews from './pages/Reviews';
 import About from './pages/About';
