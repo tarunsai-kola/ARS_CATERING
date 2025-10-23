@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://arscaterers.in/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/services</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/menu</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/gallery</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/reviews</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/about</loc>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://arscaterers.in/contact</loc>
+    <priority>0.64</priority>
+  </url>
+</urlset>

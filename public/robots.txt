@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+# Optional: Slow down crawlers if your server is small
+# Crawl-delay: 10
+
+Sitemap: https://arscaterers.in/sitemap.xml
