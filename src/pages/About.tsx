@@ -26,34 +26,7 @@ const About: React.FC = () => {
   ];
 
   const team = [
-    {
-      name: 'Chef Alessandro Rodriguez',
-      role: 'Founder & Executive Chef',
-      bio: 'With over 20 years of culinary experience, Alessandro founded ARS Catering with a passion for creating unforgettable dining experiences.',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400&h=400',
-      specialties: ['Mediterranean Cuisine', 'Wedding Catering', 'Menu Development']
-    },
-    {
-      name: 'Maria Santos',
-      role: 'Head Pastry Chef',
-      bio: 'Maria brings artistic flair to our desserts and baked goods, having trained in Paris and worked at Michelin-starred establishments.',
-      image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400&h=400',
-      specialties: ['Artisan Desserts', 'Wedding Cakes', 'French Pastries']
-    },
-    {
-      name: 'James Wilson',
-      role: 'Operations Manager',
-      bio: 'James ensures every event runs smoothly, coordinating logistics and maintaining our high standards of service excellence.',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400&h=400',
-      specialties: ['Event Coordination', 'Team Management', 'Client Relations']
-    },
-    {
-      name: 'Sophie Chen',
-      role: 'Creative Director',
-      bio: 'Sophie designs the visual presentation of our events, from table settings to food styling, creating Instagram-worthy experiences.',
-      image: 'https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=400&h=400',
-      specialties: ['Event Design', 'Food Styling', 'Visual Presentation']
-    }
+    
   ];
 
   const values = [

@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
   return (
     <motion.nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-white shadow-lg py-2' : 'bg-translucent py-4'
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                 className={`relative font-medium transition-colors duration-200 ${
                   location.pathname === item.path
                     ? isScrolled ? 'text-primary-600' : 'text-primary-300'
-                    : isScrolled ? 'text-secondary-700 hover:text-primary-600' : 'text-white hover:text-primary-300'
+                    : isScrolled ? 'text-secondary-700 hover:text-primary-600' : 'text-secondary-500 hover:text-primary-300'
                 }`}
               >
                 {item.name}

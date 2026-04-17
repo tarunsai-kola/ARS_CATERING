@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
@@ -17,11 +16,13 @@ const pageVariants = {
   out: { opacity: 0, y: -20 }
 };
 
-const pageTransition = {
+const pageTransition = ({
   type: 'tween',
   ease: 'anticipate',
   duration: 0.5
-};
+} as unknown) as any;
+
+
 
 function App() {
   return (

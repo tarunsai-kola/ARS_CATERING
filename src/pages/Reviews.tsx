@@ -10,58 +10,64 @@ const Reviews: React.FC = () => {
     {
       id: 1,
       name: 'mahesh shetty',
-      
+      role: 'Homeowner',
       rating: 5,
-      comment: 'The team was professional, punctual, and very accommodating to our requests. They managed the setup smoothly and ensured everything was served hot and fresh I highly recommend ARS Food Caterers for any event where you want great food and excellent service.',
-                       
-      image: 'https://lh3.googleusercontent.com/a/ACg8ocI0liXcw3dXB7yJCq0eFkF5VonLHOqjtERhO-xQOIJ3RVaoXw=w50-h50-p-rp-mo-br100',
-      
-     
+      comment:
+        'The team was professional, punctual, and very accommodating to our requests. They managed the setup smoothly and ensured everything was served hot and fresh I highly recommend ARS Food Caterers for any event where you want great food and excellent service.',
+      image:'https://lh3.googleusercontent.com/a/ACg8ocI0liXcw3dXB7yJCq0eFkF5VonLHOqjtERhO-xQOIJ3RVaoXw=w50-h50-p-rp-mo-br100',
+      event: 'Wedding Reception',
+      date: 'Aug 12, 2025'
     },
     {
       id: 2,
       name: 'Shriganesh Bhat',
-
+      role: 'Corporate Manager',
       rating: 5,
-      comment: 'ARS comes with the trust of quality food serving. Love the taste of every bite.',
-      image: 'https://lh3.googleusercontent.com/a-/ALV-UjUSiumbKPu7Qr-RGqDrH4Af2nlVv2CJi_gsZ9hPP8HzenG4MoJhmw=w50-h50-p-rp-mo-ba4-br100',
-     
+      comment:
+        'ARS comes with the trust of quality food serving. Love the taste of every bite.',
+      image:'https://lh3.googleusercontent.com/a-/ALV-UjUSiumbKPu7Qr-RGqDrH4Af2nlVv2CJi_gsZ9hPP8HzenG4MoJhmw=w50-h50-p-rp-mo-ba4-br100',
+      event: 'Corporate Lunch',
+      date: 'Jul 20, 2025'
     },
     {
       id: 3,
       name: 'prahlad raj',
-      
+      role: 'Event Organizer',
       rating: 5,
       comment: 'Superb and nice tastes food.',
-      image: 'https://lh3.googleusercontent.com/a/ACg8ocIBK1Mzh4X9BqpiuGdJoNwa9f78JnkD45OGhnXpEQ2i8vo_-Rs=w50-h50-p-rp-mo-br100',
-     
+      image:'https://lh3.googleusercontent.com/a/ACg8ocIBK1Mzh4X9BqpiuGdJoNwa9f78JnkD45OGhnXpEQ2i8vo_-Rs=w50-h50-p-rp-mo-br100',
+      event: 'Birthday Party',
+      date: 'Jun 05, 2025'
     },
     {
       id: 4,
       name: 'Raghavendra Kulal',
-      
+      role: 'Groom',
       rating: 5,
-      comment: 'ARS catering service was excellent. Food was delicious hygienic and servo down time. Highly recommended. Thank you ARS .',
-      image: 'https://lh3.googleusercontent.com/a-/ALV-UjU8M4i6hJWU5NU2w7brNQY8bUGov-dyR6vT-J8A6iA6OXAxcxem=w50-h50-p-rp-mo-br100',
-      
+      comment:'ARS catering service was excellent. Food was delicious hygienic and servo down time. Highly recommended. Thank you ARS .',
+      image:'https://lh3.googleusercontent.com/a-/ALV-UjU8M4i6hJWU5NU2w7brNQY8bUGov-dyR6vT-J8A6iA6OXAxcxem=w50-h50-p-rp-mo-br100',
+      event: 'Wedding',
+      date: 'May 18, 2025'
     },
     {
       id: 5,
       name: 'Lakshmi KM',
-      
+      role: 'Party Host',
       rating: 5,
-      comment: 'We recently hired ARS caterers for our event, and everything was perfect. The food was delicious, fresh, and beautifully presented. The team was professional, well-organized, and attentive to every detail. Our guests truly enjoyed the variety and taste. Highly recommend their service!',
-      image: 'https://lh3.googleusercontent.com/a/ACg8ocIP8wx39T3oeuFjzd4Bz9pbw-LkWSPunQD0bIsPyOWNPknCtA=w50-h50-p-rp-mo-br100',
-      
+      comment:'We recently hired ARS caterers for our event, and everything was perfect. The food was delicious, fresh, and beautifully presented. The team was professional, well-organized, and attentive to every detail. Our guests truly enjoyed the variety and taste. Highly recommend their service!',
+      image:'https://lh3.googleusercontent.com/a/ACg8ocIP8wx39T3oeuFjzd4Bz9pbw-LkWSPunQD0bIsPyOWNPknCtA=w50-h50-p-rp-mo-br100',
+      event: 'Anniversary Celebration',
+      date: 'Apr 02, 2025'
     },
     {
       id: 6,
       name: 'Rashmi V',
-      
+      role: 'Organizer',
       rating: 5,
-      comment: 'I recently used the ARS catering service for an event, and  iam very satisfied with their work. The food was fresh, tasty, and well presented. And the service was prompt and professional.The staffs were polite , cooperative ,and made sure everything ran smoothly.Overall it was great experience. And I would definitely recommend ARS catering service for functions, parties,or any special occasions.',
-      image: 'https://lh3.googleusercontent.com/a/ACg8ocKWuBa7cy_00AZJi52irdFYYPgodY4Qr44i87Z7VFSRIcLNTA=w50-h50-p-rp-mo-br100',
-      
+      comment:'I recently used the ARS catering service for an event, and  iam very satisfied with their work. The food was fresh, tasty, and well presented. And the service was prompt and professional.The staffs were polite , cooperative ,and made sure everything ran smoothly.Overall it was great experience. And I would definitely recommend ARS catering service for functions, parties,or any special occasions.',
+      image:'https://lh3.googleusercontent.com/a/ACg8ocKWuBa7cy_00AZJi52irdFYYPgodY4Qr44i87Z7VFSRIcLNTA=w50-h50-p-rp-mo-br100',
+      event: 'Community Event',
+      date: 'Mar 10, 2025'
     }
   ];
 
@@ -151,7 +157,7 @@ const Reviews: React.FC = () => {
         </div>
       </section>
 
-      {/* Reviews Carousel */}
+      {/* Carousel Section */}
       <section className="py-20 bg-secondary-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
@@ -180,6 +186,14 @@ const Reviews: React.FC = () => {
                     <img
                       src={reviews[currentReview].image}
                       alt={reviews[currentReview].name}
+                      loading="lazy"
+                      onError={(e) => {
+                        const img = e.currentTarget;
+                        if (!img.dataset.failed) {
+                          img.dataset.failed = '1';
+                          img.src = '/avatar-placeholder.png';
+                        }
+                      }}
                       className="w-16 h-16 rounded-full object-cover mr-4"
                     />
                     <div>
@@ -199,7 +213,6 @@ const Reviews: React.FC = () => {
               </motion.div>
             </AnimatePresence>
 
-            {/* Navigation Buttons */}
             <button
               onClick={prevReview}
               className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white shadow-lg hover:shadow-xl p-3 rounded-full transition-all duration-200 hover:bg-primary-50"
@@ -214,7 +227,6 @@ const Reviews: React.FC = () => {
             </button>
           </div>
 
-          {/* Dots Navigation */}
           <div className="flex justify-center mt-8 space-x-2">
             {reviews.map((_, index) => (
               <button
@@ -229,9 +241,9 @@ const Reviews: React.FC = () => {
         </div>
       </section>
 
-      {/* All Reviews Grid */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* ✅ All Reviews Grid - Fixed */}
+      <section className="py-20 bg-white">
+        <div className="max-w-[1400px] mx-auto px-6 sm:px-8 lg:px-12">
           <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -247,11 +259,11 @@ const Reviews: React.FC = () => {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-10 justify-items-center">
             {reviews.map((review, index) => (
               <motion.div
                 key={review.id}
-                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300 w-full max-w-sm"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -262,6 +274,14 @@ const Reviews: React.FC = () => {
                   <img
                     src={review.image}
                     alt={review.name}
+                    loading="lazy"
+                    onError={(e) => {
+                      const img = e.currentTarget;
+                      if (!img.dataset.failed) {
+                        img.dataset.failed = '1';
+                        img.src = '/avatar-placeholder.png';
+                      }
+                    }}
                     className="w-12 h-12 rounded-full object-cover mr-3"
                   />
                   <div>
@@ -269,15 +289,15 @@ const Reviews: React.FC = () => {
                     <p className="text-sm text-secondary-600">{review.role}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex mb-3">
                   {renderStars(review.rating)}
                 </div>
-                
+
                 <p className="text-secondary-700 text-sm leading-relaxed mb-4">
                   "{review.comment.substring(0, 120)}..."
                 </p>
-                
+
                 <div className="text-xs text-primary-600 font-medium">
                   {review.event} • {review.date}
                 </div>
@@ -302,16 +322,15 @@ const Reviews: React.FC = () => {
             <p className="text-xl text-primary-100 mb-8">
               Experience the exceptional service and quality that our clients rave about.
             </p>
-            <a href="tel:9845464183">
-  <motion.button
-    className="px-8 py-3 bg-white text-primary-600 font-semibold rounded-full hover:bg-primary-50 transition-all duration-300"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-  >
-    Book Your Event Today
-  </motion.button>
-</a>
-
+            <a href="tel:9880650539">
+              <motion.button
+                className="px-8 py-3 bg-white text-primary-600 font-semibold rounded-full hover:bg-primary-50 transition-all duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Book Your Event Today
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </section>

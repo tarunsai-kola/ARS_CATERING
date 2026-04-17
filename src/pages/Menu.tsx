@@ -78,7 +78,7 @@ const MenuPage: React.FC = () => {
       ],
       description: "South Indian Starters (Any One)",
       image:
-        "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/8818732/pexels-photo-8818732.jpeg",
     },
     {
       id: "palya",
@@ -107,7 +107,7 @@ const MenuPage: React.FC = () => {
       ],
       description: "Curry (Any Two)",
       image:
-        "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
     },
     {
       id: "rice-bath",
@@ -140,7 +140,7 @@ const MenuPage: React.FC = () => {
       ],
       description: "Breads (Any Two)",
       image:
-        "https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/28107046/pexels-photo-28107046.jpeg",
     },
     {
       id: "sambar",
@@ -153,7 +153,7 @@ const MenuPage: React.FC = () => {
       ],
       description: "Sambar (Any One)",
       image:
-        "https://images.pexels.com/photos/4109991/pexels-photo-4109991.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://media.istockphoto.com/id/1280359179/photo/sambar-south-indian-lentil-stew-with-vegetables-and-curry-leaves.jpg?s=2048x2048&w=is&k=20&c=GR0tiwpktyDGfMJcbIPEhfic4-NP5aKqznyD2Yb1DDY=",
     },
     {
       id: "rasam",
@@ -230,29 +230,7 @@ const MenuPage: React.FC = () => {
         backgroundColor: "white",
       }}
     >
-      {/* ✅ Menu Buttons */}
-      <div className="flex justify-center gap-6 mb-10">
-        <button
-          className={`px-6 py-2 rounded-lg text-white font-semibold ${
-            activeMenu === "southindian"
-              ? "bg-orange-600"
-              : "bg-gray-400 hover:bg-orange-500"
-          }`}
-          onClick={() => setActiveMenu("southindian")}
-        >
-          🍛 South Indian Menu
-        </button>
-        <button
-          className={`px-6 py-2 rounded-lg text-white font-semibold ${
-            activeMenu === "buffet"
-              ? "bg-orange-600"
-              : "bg-gray-400 hover:bg-orange-500"
-          }`}
-          onClick={() => setActiveMenu("buffet")}
-        >
-          🍽️ Buffet Menu
-        </button>
-      </div>
+      
 
       {/* ✅ Heading */}
       <motion.h1
@@ -261,7 +239,7 @@ const MenuPage: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         {activeMenu === "southindian"
-          ? "🍛 ARS Caterers South Indian Menu"
+          ? ""
           : "🍽️ ARS Caterers Buffet Menu"}
       </motion.h1>
 

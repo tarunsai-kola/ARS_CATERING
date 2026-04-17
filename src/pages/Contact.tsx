@@ -44,8 +44,8 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      content: '9845464183',
-      link: 'tel:9845464183'
+      content: '9880650539',
+      link: 'tel:9880650539'
     },
     {
       icon: Mail,
